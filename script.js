@@ -1,16 +1,13 @@
-const cantidad = 5
+const cantidad = 15
 
 let i = 0
 let primoTemp = 1
-
-
-
 
 const esPrimo = primo => {
     
     let cantDivisores = 0
 
-    for (let i = 1; 1 <= primo; i++) {
+    for (let i = 1; i <= primo; i++) {
         if (primo % i == 0) {
             cantDivisores++
         }
@@ -28,7 +25,9 @@ const esPrimo = primo => {
 
 while (i<cantidad) {
     if (esPrimo(primoTemp)) {
-        
+        console.log(i+1, "->", primoTemp)
+        i++
     }
+    primoTemp++
 }
 
