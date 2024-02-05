@@ -24,7 +24,7 @@ const esPrimo = primo => {
 
 
 while (i<cantidad) {
-    if (esPrimo(primoTemp)) {
+    if (esPrimo(primoTemp) && i < cantidad) {
         console.log(i+1, "->", primoTemp)
         i++
     }
