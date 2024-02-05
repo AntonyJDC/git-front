@@ -3,9 +3,7 @@ const cantidad = 5
 let i = 0
 let primoTemp = 1
 
-// while (i<cantidad) {
 
-// }
 
 
 const esPrimo = primo => {
@@ -27,5 +25,10 @@ const esPrimo = primo => {
     
 }
 
-console.log(esPrimo(17))
+
+while (i<cantidad) {
+    if (esPrimo(primoTemp)) {
+        
+    }
+}
 
