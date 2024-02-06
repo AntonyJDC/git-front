@@ -1,3 +1,5 @@
+console.log("console desde programador C")
+
 const cantidad = 15
 
 let i = 0
